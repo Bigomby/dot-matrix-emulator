@@ -7,9 +7,6 @@
 <script>
 import _ from 'lodash';
 
-const SQUARE_WIDTH = 8;
-const SQUARE_HEIGHT = 8;
-
 export default {
   props: {
     input: {

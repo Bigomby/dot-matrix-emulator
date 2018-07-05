@@ -86,13 +86,11 @@ export default {
   },
 
   mounted() {
-    console.log(this.text);
-
     if (!this.text) {
       return;
     }
-    const text = text2dots(this.text);
 
+    const text = text2dots(this.text);
     text.chunk(8).forEach((square, i) => {
       this.$set(this.squares, i, square);
     });
